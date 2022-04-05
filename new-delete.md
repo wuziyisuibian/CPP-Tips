@@ -3,7 +3,7 @@
 new和delete不是函数，而是C++定义的关键字，通过特定的语法，可以组成表达式。
 
 ### malloc
-```
+```cpp
 void FunTest()
 {
 	int *pTest = (int*)malloc(10*sizeof(int));         //开辟10个int型的空间大小
